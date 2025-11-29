@@ -1,0 +1,73 @@
+.paper-card {
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.paper-card h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paper-card p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+button.accept {
+  background: #28a745;
+}
+
+button.accept:hover {
+  background: #218838;
+}
+
+button.reject {
+  background: #dc3545;
+}
+
+button.reject:hover {
+  background: #c82333;
+}
+
+.status {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.status.accepted {
+  background: #e6f9ee;
+  color: #155724;
+  border: 1px solid #28a745;
+}
+
+.status.rejected {
+  background: #fdeaea;
+  color: #721c24;
+  border: 1px solid #dc3545;
+}

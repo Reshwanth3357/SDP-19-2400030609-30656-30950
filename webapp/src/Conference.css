@@ -1,0 +1,64 @@
+.conference-box {
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  margin-left: 500px;
+}
+
+.conference-box h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.conference-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.conference-box input,
+.conference-box textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.conference-box textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.conference-box button {
+  width: 100%;
+  padding: 10px;
+  background: #5b7cfa;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.conference-box button:hover {
+  background: #3b5dfc;
+}
+
+.conference-details {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f4f7fb;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.conference-details h3 {
+  margin-top: 0;
+  color: #333;
+}

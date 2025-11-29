@@ -1,0 +1,87 @@
+*{
+margin: 0;
+  background: url('public/gray-white-noise-color-gradient-7_713039-339.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+.wel{
+  background-color: rgb(255, 255, 255);
+  margin-right:1110px;
+  border-radius: 10px;
+  font-size: 30px;
+  padding:5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.side ul li{
+  list-style-type: disclosure-closed;
+  background-color: rgb(231, 231, 231);
+  margin-right:1110px;
+  border-radius: 10px;
+  font-size: 30px;
+  padding:5px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.side ul li:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+.logout{
+  background-color: rgb(255, 228, 228);
+  color: red;
+  font-style: oblique;
+  font-size: large;
+  cursor: pointer;
+  border-color:rgb(255, 228, 228);
+  border-radius: 10px;
+  padding: 30px;
+  margin-right: 1180px;
+  display: grid;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.dash{
+  display:grid;
+  margin-left: 300px;
+  margin-top: 0px;
+}
+.side{
+  display: grid;
+  height:10vh;
+  grid-column: 30%;
+  grid-row: 90%;
+}
+.contttt{
+  background-color: rgb(220, 220, 220);
+  display: inline-flex;
+  gap: 150px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cont p{
+  background-color: rgb(231, 231, 231);
+  display: inline-flex;
+  gap: 150px;
+  padding: 30px;
+  padding-top: 0px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 90px;
+  border-color: black solid 1px;
+}
